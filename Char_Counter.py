@@ -1,0 +1,5 @@
+s = input("Enter sentence: ")
+uniqueChar = set(s)
+uniqueChar.discard(" ")
+print("Unique CHaracters are :", uniqueChar)
+print("All unique Characters :", len(uniqueChar))
